@@ -1,1 +1,2 @@
--e#!/bin/bash\npr -m -t /etc/passwd /etc/hosts
+#!/bin/bash
+tail /etc/passwd /etc/hosts
