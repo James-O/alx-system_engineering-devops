@@ -7,7 +7,7 @@ c=0
 while [ $c -le 9 ]
 do
 	(( c++ ))
-	if [ $c == 9 ]
+	if [ $c -eq 9 ]
 	then
 		echo 'Hi'
 		continue
